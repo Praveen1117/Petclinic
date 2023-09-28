@@ -156,6 +156,9 @@ sudo systemctl restart docker
 
 --- INSTALL JENKINS ---
 
+https://updates.jenkins.io/download/war/
+java -jar /jenkins.war https:8080:8082
+
 sudo apt install openjdk-11-jre
 
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
