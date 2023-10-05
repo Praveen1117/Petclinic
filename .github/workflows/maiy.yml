@@ -5,8 +5,7 @@ jobs:
     name: deploy to staging
     runs-on: ubuntu-18.04
      Install OWAPS Dependencies check
-  run: mvn clean install
-
+  run: 
      mvnw clean validate, clean compile, clean package, test, install
  
         mvn install
