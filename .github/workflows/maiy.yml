@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-18.04
      Install OWAPS Dependencies check
   run: 
-     mvnw clean validate, clean compile, clean package, test, install
- 
-        mvn install
+     mvn clean compile
+     mvn clean package mvn test
+     mvn install
         mvn run compile --if-present
         mvn test
