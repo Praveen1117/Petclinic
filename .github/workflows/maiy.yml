@@ -1,0 +1,15 @@
+name: Petclinic
+on: push
+jobs:
+  my_job:
+    name: deploy to staging
+    runs-on: ubuntu-18.04
+     Install OWAPS Dependencies check
+  run: mvn clean install
+
+     mvnw clean validate, clean compile, clean package, test, install
+ 
+        mvn install
+        mvn run compile --if-present
+        mvn test
+  if: github.event_name == 'push'
