@@ -12,4 +12,3 @@ jobs:
         mvn install
         mvn run compile --if-present
         mvn test
-  if: github.event_name == 'push'
